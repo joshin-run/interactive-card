@@ -1,26 +1,41 @@
 import React, { Component } from 'react';
+import CreditCard from './CreditCard'
+import TermLoan from './TermLoan'
 
 class Products extends Component {
   constructor(props) {
-    super(props);
-    this.state = {isToggleOn: true};
-
-    this.handleClick = this.handleClick.bind(this);
+    super(props)
+    this.updateScreen = this.updateScreen.bind(this)
+    this.state = {
+      screenIndex: 1
+    }
   }
 
-  handleClick() {
-    this.setState(state => ({
-      isToggleOn: !state.isToggleOn
-    }));
+  updateScreen(newScreenIndex) {
+    this.setState({
+      screenIndex: newScreenIndex
+    });
   }
 
   render() {
+
+    let ActiveScreen
+    if(this.state.screenIndex === 1) {
+      ActiveScreen = <CreditCard />
+    }
+    if(this.state.screenIndex === 2) {
+      ActiveScreen = <TermLoan />
+    }
+
     return (
       <div className="products">
-      <button onClick={this.handleClick}>
-        {this.state.isToggleOn ? 'ON' : 'OFF'}
-      </button>
-
+        <div className="button-wrapper">
+          <button className="credit-card-button" onClick={() => { this.updateScreen(1)}}>Credit Card</button>
+          <button className="term-loan-button" onClick={() => { this.updateScreen(2)}}>Term Loan</button>
+        </div>
+        <div className="screen-wrapper">
+          {ActiveScreen}
+        </div>
       </div>
     );
   }
