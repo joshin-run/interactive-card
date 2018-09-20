@@ -4,3 +4,12 @@ body {
   font-family: sans-serif;
   background-color: #EEF2F5;
 }
+
+.app-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
