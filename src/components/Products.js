@@ -30,8 +30,8 @@ class Products extends Component {
     return (
       <div className="products">
         <div className="button-wrapper">
-          <button className="credit-card-button" onClick={() => { this.updateScreen(1)}}>Credit Card</button>
-          <button className="term-loan-button" onClick={() => { this.updateScreen(2)}}>Term Loan</button>
+          <button className="nav-buttons credit-card-button" onClick={() => { this.updateScreen(1)}}>Credit Card</button>
+          <button className="nav-buttons term-loan-button" onClick={() => { this.updateScreen(2)}}>Term Loan</button>
         </div>
         <div className="screen-wrapper">
           {ActiveScreen}

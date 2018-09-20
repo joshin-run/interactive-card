@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "button1": "Credit Card",
+    "button2": "Term Loan",
+  },
+  "foobar": {
+    "foo": "foo",
+    "bar": "bar",
+  },
+  "and": "one"
+}

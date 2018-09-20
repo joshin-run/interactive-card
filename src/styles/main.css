@@ -21,8 +21,7 @@ body {
   align-items: flex-start;
 }
 
-.credit-card-button,
-.term-loan-button {
+.nav-buttons {
   border: 1px solid #e1e1e1;
   padding: 20px 40px;
   font-size: 0.9em;
@@ -31,6 +30,14 @@ body {
   width: 50%;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.credit-card-button {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.term-loan-button {
+  border-radius: 0px 5px 5px 0px;
 }
 
 .card {
@@ -45,8 +52,33 @@ body {
 .credit-card {
   width: auto;
   height: 100%;
-  background-color: lime;
+}
+
+.notification {
+  background-color: powderblue;
+  height: auto;
+  width: auto;
   padding: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 1.111em;
+  font-weight: 900;
+  padding: 0px 0px 20px 0px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3px 0px;
+  border-top: 1px solid #c8c8c8;
 }
 
 .term-loan {

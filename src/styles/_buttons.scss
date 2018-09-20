@@ -5,8 +5,7 @@
   align-items: flex-start;
 }
 
-.credit-card-button,
-.term-loan-button {
+.nav-buttons {
   border: 1px solid rgb(225,225,225);
   padding: 20px 40px;
   font-size: .9em;
@@ -15,4 +14,11 @@
   width: 50%;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.credit-card-button {
+  border-radius: 5px 0px 0px 5px;
+}
+.term-loan-button {
+  border-radius: 0px 5px 5px 0px;
 }
