@@ -22,6 +22,10 @@ body {
 }
 
 .nav-buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #e1e1e1;
   padding: 20px 40px;
   font-size: 0.9em;
@@ -31,13 +35,38 @@ body {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.nav-buttons:focus {
+  outline: 0;
+}
 
-.credit-card-button {
+#credit-card-button {
   border-radius: 5px 0px 0px 5px;
 }
 
-.term-loan-button {
+#term-loan-button {
   border-radius: 0px 5px 5px 0px;
+}
+
+.active {
+  background-color: gainsboro;
+}
+
+.inactive {
+  background-color: #FFFFFF;
+}
+
+.cc-icon {
+  height: 20px;
+  width: auto;
+}
+
+.mb-icon {
+  height: 20px;
+  width: auto;
+}
+
+.button-icons {
+  margin-bottom: 6px;
 }
 
 .card {

@@ -6,6 +6,10 @@
 }
 
 .nav-buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   border: 1px solid rgb(225,225,225);
   padding: 20px 40px;
   font-size: .9em;
@@ -14,11 +18,36 @@
   width: 50%;
   margin-bottom: 20px;
   cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
 }
 
-.credit-card-button {
+#credit-card-button {
   border-radius: 5px 0px 0px 5px;
 }
-.term-loan-button {
+#term-loan-button {
   border-radius: 0px 5px 5px 0px;
+}
+
+.active {
+  background-color: rgb(220,220,220);
+}
+
+.inactive {
+  background-color: #FFFFFF;
+}
+
+.cc-icon {
+  height: 20px;
+  width: auto;
+}
+.mb-icon {
+  height: 20px;
+  width: auto;
+}
+
+.button-icons {
+  margin-bottom: 6px;
 }
