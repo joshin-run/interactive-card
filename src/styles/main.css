@@ -92,14 +92,14 @@ table tr:last-child {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   padding: 20px;
+  border: 1px solid #e1e1e1;
 }
 
-.biz-img {
-  height: 50px;
-  width: auto;
+.add-wrapper {
+  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
