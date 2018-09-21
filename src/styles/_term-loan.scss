@@ -1,6 +1,18 @@
 .term-loan {
   width: auto;
   height: 100%;
-  background-color: silver;
   padding: 20px;
+  
+}
+
+.add-wrapper {
+  display: flex
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.biz-img {
+  height: 50px;
+  width: auto;
 }

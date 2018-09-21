@@ -1,12 +1,8 @@
 {
-  "financial_criteria": [
-    {
-      "Personal_credit_score": "760",
-      "Personal_credit_age": "16yrs",
-      "Personal_inquiries": "2",
-      "Personal_bankruptcies": "0",
-      "Personal_credit_utilization": "32%",
-      "Personal_credit_limit": "$49,300",
-    }
-  ]
+  "creditScore": "706",
+  "creditAge": "16yr.",
+  "inquiries": "2",
+  "bankruptcies": "0",
+  "creditUtilization": "32%",
+  "creditLimit": "$49,300"
 }
