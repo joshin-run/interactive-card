@@ -1,11 +1,12 @@
 {
-  "buttons": {
-    "button1": "Credit Card",
-    "button2": "Term Loan",
-  },
-  "foobar": {
-    "foo": "foo",
-    "bar": "bar",
-  },
-  "and": "one"
+  "financial_criteria": [
+    {
+      "Personal_credit_score": "760",
+      "Personal_credit_age": "16yrs",
+      "Personal_inquiries": "2",
+      "Personal_bankruptcies": "0",
+      "Personal_credit_utilization": "32%",
+      "Personal_credit_limit": "$49,300",
+    }
+  ]
 }

@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 
 class CreditCard extends Component {
   render() {
+
+    // window.onload = function dataCollect () {
+    //
+    //
+    //   $.ajax({url: "../data.json"}).done(function(mData) {
+    //     console.log('url returned mData:', mData)
+    //   })
+    // }
     return (
       <div className="credit-card">
         <div className="notification">
