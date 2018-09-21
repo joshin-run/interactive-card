@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import party from '../assets/party.svg'
 
 class CreditCard extends Component {
   constructor (props) {
@@ -29,7 +30,10 @@ class CreditCard extends Component {
     return (
       <div className="credit-card">
         <div className="notification">
-          <p><strong>Yay! You qualify for a credit card.</strong></p>
+          <div className="yay">
+            <p><strong>Yay! You qualify for a credit card.</strong></p>
+            <img className="party" src={party} />
+          </div>
           <p>A credit card is a great option for you right now.</p>
         </div>
         <div className="title">

@@ -57,11 +57,21 @@ body {
 }
 
 .notification {
-  background-color: powderblue;
+  background-color: #C1EDFF;
   height: auto;
   width: auto;
   padding: 20px;
   border-radius: 5px;
+  border: 1px solid #83DCFF;
+}
+.notification .yay {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.notification .yay .party {
+  height: 40px;
+  width: auto;
+  margin-left: 7px;
 }
 
 .title {
@@ -92,14 +102,36 @@ table tr:last-child {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 20px;
   border: 1px solid #e1e1e1;
+  border-radius: 5px;
 }
 
 .add-wrapper {
-  background-color: red;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.add-wrapper h2 {
+  margin-bottom: 10px;
+  color: #373737;
+}
+.add-wrapper p:last-child {
+  margin: 10px 0;
+}
+
+.biz-image {
+  height: 100px;
+  width: auto;
+}
+
+.add-icon {
+  height: 30px;
+  width: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
