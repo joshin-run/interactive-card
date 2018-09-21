@@ -44,7 +44,6 @@ class CreditCard extends Component {
             <tr>
               <td>Personal credit score</td>
               <td>{this.state.creditScore}</td>
-
             </tr>
             <tr>
               <td>Personal credit age</td>

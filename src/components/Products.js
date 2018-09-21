@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import CreditCard from './CreditCard'
 import TermLoan from './TermLoan'
-import creditCard from '../assets/creditCard2.png'
-import moneyBag from '../assets/moneyBag2.png'
+import creditCard from '../assets/creditCard2-bk.png'
+import moneyBag from '../assets/moneyBag2-bk.png'
 
 class Products extends Component {
   constructor(props) {
