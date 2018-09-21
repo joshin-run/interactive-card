@@ -8,9 +8,9 @@ class TermLoan extends Component {
       <div className="term-loan">
         <div className="add-wrapper">
           <img className="biz-image" src={bizImg} />
-          <h1>Add your business</h1>
+          <h2>Add your business</h2>
           <p>For term loan options, add your business</p>
-          <img className="biz-image" src={addIcon} />
+          <img className="add-icon" src={addIcon} />
           <p>Add</p>
         </div>
       </div>
